@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes,lightning:isUrlAddressable,lightning:hasPageReference">
+    <lightning:navigation aura:id="navLink"/>
+    <lightning:button label="Open a single file" onclick="{!c.openSingleFile}"/>
+    <lightning:button label="Open multiple files" onclick="{!c.openMultipleFiles}"/>
+</aura:component>
